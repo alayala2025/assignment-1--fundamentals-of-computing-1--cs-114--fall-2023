@@ -28,5 +28,6 @@ public class Assignment1 {
         modifiedString = new StringBuilder(shortString).reverse();
 
         randomNumber = generator.nextInt(16352) + 32;
+        System.out.println("Random number generated. Proceeding...");
     }
 }
