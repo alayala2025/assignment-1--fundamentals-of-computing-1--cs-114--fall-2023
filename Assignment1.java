@@ -27,6 +27,6 @@ public class Assignment1 {
         shortString = inputString.substring(1,4);
         modifiedString = new StringBuilder(shortString).reverse();
 
-
+        randomNumber = generator.nextInt(16352) + 32;
     }
 }
