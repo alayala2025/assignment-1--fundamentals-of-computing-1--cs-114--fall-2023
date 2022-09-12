@@ -17,7 +17,7 @@ public class Assignment1 {
         Scanner scan = new Scanner(System.in);              //Scanner used to obtain user input
         System.out.println("Please enter a number in Fahrenheit:");
         tempFahrenheit = scan.nextFloat();
-        tempCelsius = (float) ((TempFahrenheit - 32) * CONVERSION_FACTOR); //Converts Fahrenheit to Celsius
+        tempCelsius = (float) ((tempFahrenheit - 32) * CONVERSION_FACTOR); //Converts Fahrenheit to Celsius
         System.out.println("Please enter a 5-character string:");
         modifiedString = "";
     }
