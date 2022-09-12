@@ -6,7 +6,7 @@ public class Assignment1 {
         Scanner scan = new Scanner(System.in);              // Scanner used to obtain user input
         float tempFahrenheit, tempCelsius;
         String inputString, shortString;
-        StringBuilder modifiedString = new StringBuilder(); // Used to build the reversed string
+        StringBuilder modifiedString; // Used to build the reversed string
         
         System.out.println("BBBBBBB      SSSSSSS ");      // Prints the block-letter initials as seen in the code
         System.out.println("BBB   BBB   SSS   SSS");
