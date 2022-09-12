@@ -20,6 +20,7 @@ public class Assignment1 {
         tempFahrenheit = scan.nextFloat();
         tempCelsius = (float) ((tempFahrenheit - 32) * CONVERSION_FACTOR); //Converts Fahrenheit to Celsius
         System.out.println("Please enter a 5-character string:");
+        inputString = scan.next();
         modifiedString = "";
     }
 }
