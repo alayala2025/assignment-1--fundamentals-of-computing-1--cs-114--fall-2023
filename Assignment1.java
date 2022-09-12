@@ -16,8 +16,10 @@ public class Assignment1 {
         System.out.println("BBB   BBB   SSS   SSS");
         System.out.println("BBBBBBB      SSSSSSS ");
         System.out.println("Please enter a number in Fahrenheit:");
+        
         tempFahrenheit = scan.nextFloat();
         tempCelsius = (float) ((tempFahrenheit - 32) * CONVERSION_FACTOR); // Converts Fahrenheit to Celsius
+        
         System.out.println("Please enter a 5-character string:");
         inputString = scan.next();
         shortString = inputString.substring(1,4);
