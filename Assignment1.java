@@ -7,7 +7,6 @@ public class Assignment1 {
         float tempFahrenheit;
         float tempCelsius;
         String inputString;
-        String shortString;
         String modifiedString;
         char string1, string2, string3;
         
@@ -23,7 +22,5 @@ public class Assignment1 {
         tempCelsius = (float) ((tempFahrenheit - 32) * CONVERSION_FACTOR); //Converts Fahrenheit to Celsius
         System.out.println("Please enter a 5-character string:");
         inputString = scan.next();
-        shortString = inputString.substring(1,4);
-
     }
 }
