@@ -26,7 +26,7 @@ public class Assignment1 {
         System.out.println("Please enter a 5-character string:");
         inputString = scan.next();
         shortString = inputString.substring(1,4);
-        modifiedString = new StringBuilder(shortString).reverse();
+        modifiedString = new StringBuilder(shortString).reverse();      // Reverses string and removes end characters
 
         randomNumber = generator.nextInt(16353) + 32;
         System.out.println("Random number generated. Proceeding...");
