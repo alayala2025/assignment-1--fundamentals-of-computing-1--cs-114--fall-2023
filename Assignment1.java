@@ -5,17 +5,16 @@ import java.util.*;
 
 public class Assignment1 {
 
-    public static Scanner scan = new Scanner(System.in); //Scanner init
-    public static double tempFarenheit; //Input for Farenheit
+    public static Scanner scan = new Scanner(System.in);
+    public static double tempFarenheit;
     public static double tempCelsius;  //Output will be stored in this variable
     public static String originalString; //Input for String
     public static String cutString; //Cut version of Input String
-    public static String finalString; //In reality this is unecessary, but I like it more instead of reassigning cutString in the end.
+    public static String finalString;
 
-
-    public static Random r = new Random(); //Random number init
-    public static int randomLower = 31; //Random number lower bound
-    public static int randomUpper = 16385; //Random number upper bound
+    public static Random r = new Random();
+    public static int randomLower = 31;
+    public static int randomUpper = 16385;
 
 
     //Writing all those System.out.println() lines in the main method makes me physically ill
@@ -27,7 +26,7 @@ public class Assignment1 {
         System.out.println("\tJJJ\t\t\tJJJ");
         System.out.println("\tJJJ\t\t\tJJJ");
         System.out.println("\tJJJ\t\t\tJJJ");
-        System.out.println("JJJJJJJJJJJ\t\tJJJJJJJJJJJ"); //Excuse the horrendous ASCII art
+        System.out.println("JJJJJJJJJJJ\t\tJJJJJJJJJJJ");
     }
 
 
@@ -49,14 +48,14 @@ public class Assignment1 {
         typeWriter("Please enter a 5 character string:\n");
         originalString = scan.next();
         cutString = originalString.substring(1, 4); //Cuts the string
-        finalString = new StringBuilder(cutString).reverse().toString(); // Reverses the cut strihng
+        finalString = new StringBuilder(cutString).reverse().toString(); // Reverses the cut string
         typeWriter("Please enter a temperature in Farenheit:\n");
         tempFarenheit = scan.nextInt();
         tempCelsius = (tempFarenheit - 32) * .5556; //Equation for Farenheit to Celsius
         int random = r.nextInt(randomLower, randomUpper); //Init random number
         typeWriter("Random number generated...\n");
         typeWriter("Your new string is: " + tempCelsius + finalString + random);
-   }
+    }
 
 
     public static void main(String[] args) {
