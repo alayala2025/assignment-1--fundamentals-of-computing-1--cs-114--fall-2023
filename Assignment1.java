@@ -8,6 +8,7 @@ public class Assignment1 {
         float tempCelsius;
         String inputString;
         String modifiedString;
+        char string1, string2, string3;
         
         System.out.println("BBBBBBB      SSSSSSS ");      //Prints the block-letter initials as seen in the code
         System.out.println("BBB   BBB   SSS   SSS");
@@ -22,5 +23,6 @@ public class Assignment1 {
         System.out.println("Please enter a 5-character string:");
         inputString = scan.next();
         modifiedString = inputString.substring(1,4);
+        
     }
 }
