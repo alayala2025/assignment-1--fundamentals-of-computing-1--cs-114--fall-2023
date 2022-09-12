@@ -5,6 +5,7 @@ public class Assignment1 {
         final double CONVERSION_FACTOR = (5.0 / 9.0);       //Used to convert Fahrenheit to Celsius and vice versa
         float tempFahrenheit;
         float tempCelsius;
+        String inputString;
         String modifiedString;
         
         System.out.println("BBBBBBB      SSSSSSS ");      //Prints the block-letter initials as seen in the code
