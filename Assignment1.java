@@ -8,6 +8,7 @@ public class Assignment1 {
         String inputString, shortString;
         StringBuilder modifiedString; // Used to build the reversed string
         Random generator = new Random();
+        int randomNumber;
         
         System.out.println("BBBBBBB      SSSSSSS ");      // Prints the block-letter initials as seen in the code
         System.out.println("BBB   BBB   SSS   SSS");
