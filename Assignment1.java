@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*; // Used to import the Scanner and Random classes
 
 public class Assignment1 {
     public static void main(String[] args) {
