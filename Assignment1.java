@@ -7,7 +7,7 @@ public class Assignment1 {
         float tempCelsius;
         String modifiedString;
         
-        System.out.println("BBBBBBB      SSSSSSS ");        //Prints the block-letter initials as seen in the code
+        System.out.println("BBBBBBB      SSSSSSS ");      //Prints the block-letter initials as seen in the code
         System.out.println("BBB   BBB   SSS   SSS");
         System.out.println("BBB   BBB   SSS      ");
         System.out.println("BBBBBBB      SSSSSSS ");
