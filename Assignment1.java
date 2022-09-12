@@ -7,7 +7,7 @@ public class Assignment1 {
         float tempFahrenheit, tempCelsius;
         String inputString, shortString;
         StringBuilder modifiedString; // Used to build the reversed string
-        Random generator;
+        Random generator = new Random();
         
         System.out.println("BBBBBBB      SSSSSSS ");      // Prints the block-letter initials as seen in the code
         System.out.println("BBB   BBB   SSS   SSS");
