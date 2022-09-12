@@ -28,7 +28,7 @@ public class Assignment1 {
         shortString = inputString.substring(1,4);
         modifiedString = new StringBuilder(shortString).reverse();
 
-        randomNumber = generator.nextInt(16352) + 32;
+        randomNumber = generator.nextInt(16353) + 32;
         System.out.println("Random number generated. Proceeding...");
 
         outputFinal = "" + tempCelsius + modifiedString + randomNumber;
