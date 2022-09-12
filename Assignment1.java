@@ -5,7 +5,7 @@ public class Assignment1 {
         final double CONVERSION_FACTOR = (5.0 / 9.0);   // Used to convert Fahrenheit to Celsius and vice versa
         Scanner scan = new Scanner(System.in);          // Scanner used to obtain user input
         float tempFahrenheit, tempCelsius;
-        String inputString, shortString;
+        String inputString, trimString;
         StringBuilder modifiedString;                   // Used to build the reversed string
         Random generator = new Random();                // Used to generate a random number
         int randomNumber;
@@ -25,8 +25,8 @@ public class Assignment1 {
         
         System.out.println("Please enter a 5-character string:");
         inputString = scan.next();
-        shortString = inputString.substring(1,4);
-        modifiedString = new StringBuilder(shortString).reverse();      // Reverses string and removes end characters
+        trimString = inputString.substring(1,4);
+        modifiedString = new StringBuilder(trimString).reverse();      // Reverses string and removes end characters
 
         randomNumber = generator.nextInt(16353) + 32;
         System.out.println("Random number generated. Proceeding...");
