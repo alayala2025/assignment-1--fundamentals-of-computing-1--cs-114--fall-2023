@@ -4,10 +4,8 @@ public class Assignment1 {
     public static void main(String[] args) {
         final double CONVERSION_FACTOR = (5.0 / 9.0);       // Used to convert Fahrenheit to Celsius and vice versa
         Scanner scan = new Scanner(System.in);              // Scanner used to obtain user input
-        float tempFahrenheit;
-        float tempCelsius;
-        String inputString;
-        String modifiedString;
+        float tempFahrenheit, tempCelsius;
+        String inputString, modifiedString;
         
         System.out.println("BBBBBBB      SSSSSSS ");      // Prints the block-letter initials as seen in the code
         System.out.println("BBB   BBB   SSS   SSS");
