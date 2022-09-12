@@ -30,5 +30,8 @@ public class Assignment1 {
 
         randomNumber = generator.nextInt(16352) + 32;
         System.out.println("Random number generated. Proceeding...");
+
+        outputFinal = "" + tempCelsius + modifiedString + randomNumber;
+        System.out.println("Your new string is: \"" + outputFinal + "\"");
     }
 }
