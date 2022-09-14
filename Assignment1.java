@@ -2,6 +2,12 @@
 
 public class Assignment1 {
     public static void main(String[] args) {
-        // Add your code here
+        System.out.println ("  CCCCCC       DDDDDD   ");
+        System.out.println (" CCC           DD    DD ");
+        System.out.println ("CCC            DD    DD ");
+        System.out.println ("CCC            DD    DD ");
+        System.out.println ("CCC            DD    DD ");
+        System.out.println (" CCC           DD    DD ");
+        System.out.println ("  CCCCCC       DDDDDD   ");
     }
 }
