@@ -2,12 +2,12 @@ import java.util.*; // Used to import the Scanner and Random classes
 
 public class Assignment1 {
     public static void main(String[] args) {
-        final double CONVERSION_FACTOR = (5.0 / 9.0);   // Used to convert Fahrenheit to Celsius and vice versa
-        Scanner input = new Scanner(System.in);          // Scanner used to obtain user input
+        final double CONVERSION_FACTOR = (5.0 / 9.0);       // Used to convert Fahrenheit to Celsius and vice versa
+        Scanner input = new Scanner(System.in);             // Scanner used to obtain user input
         float tempFahrenheit, tempCelsius;
         String inputString, trimString;
-        StringBuilder modifiedString;                   // Used to build the reversed string
-        Random generator = new Random();                // Used to generate a random number
+        StringBuilder modifiedString;                       // Used to build the reversed string
+        Random generator = new Random();                    // Used to generate a random number
         int randomNumber;
         String outputFinal;
         
