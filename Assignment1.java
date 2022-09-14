@@ -11,7 +11,8 @@ public class Assignment1 {
         int randomNumber;
         String outputFinal;
         
-        System.out.println("BBBBBBB      SSSSSSS ");        // Prints the block-letter initials as seen in the code
+        // Prints the block-letter initials as seen in the code
+        System.out.println("BBBBBBB      SSSSSSS ");
         System.out.println("BBB   BBB   SSS   SSS");
         System.out.println("BBB   BBB   SSS      ");
         System.out.println("BBBBBBB      SSSSSSS ");
@@ -22,13 +23,15 @@ public class Assignment1 {
         System.out.println("\nPlease enter a number in Fahrenheit:");
         tempFahrenheit = input.nextFloat();
         
-        tempCelsius = (float) ((tempFahrenheit - 32) * CONVERSION_FACTOR);      // Converts Fahrenheit to Celsius
+        // Converts Fahrenheit to Celsius
+        tempCelsius = (float) ((tempFahrenheit - 32) * CONVERSION_FACTOR);
         
         System.out.println("Please enter a 5-character string:");
         inputString = input.next();
         
+        // Reverses string and removes end characters
         trimString = inputString.substring(1,4);
-        modifiedString = new StringBuilder(trimString).reverse();       // Reverses string and removes end characters
+        modifiedString = new StringBuilder(trimString).reverse();
 
         randomNumber = generator.nextInt(16353) + 32;
         System.out.println("Random number generated. Proceeding...");
