@@ -29,7 +29,7 @@ public class Assignment1 {
         System.out.println("Please enter a 5-character string:");
         inputString = input.next();
         
-        // Reverses string and removes end characters
+        // Removes end characters and reverses string
         trimString = inputString.substring(1,4);
         modifiedString = new StringBuilder(trimString).reverse();
 
