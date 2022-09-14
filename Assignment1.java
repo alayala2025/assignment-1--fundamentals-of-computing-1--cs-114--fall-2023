@@ -3,7 +3,7 @@ import java.util.*; // Used to import the Scanner and Random classes
 public class Assignment1 {
     public static void main(String[] args) {
         final double CONVERSION_FACTOR = (5.0 / 9.0);   // Used to convert Fahrenheit to Celsius and vice versa
-        Scanner scan = new Scanner(System.in);          // Scanner used to obtain user input
+        Scanner input = new Scanner(System.in);          // Scanner used to obtain user input
         float tempFahrenheit, tempCelsius;
         String inputString, trimString;
         StringBuilder modifiedString;                   // Used to build the reversed string
@@ -20,12 +20,12 @@ public class Assignment1 {
         System.out.println("BBBBBBB      SSSSSSS ");
         
         System.out.println("\nPlease enter a number in Fahrenheit:");
-        tempFahrenheit = scan.nextFloat();
+        tempFahrenheit = input.nextFloat();
         
         tempCelsius = (float) ((tempFahrenheit - 32) * CONVERSION_FACTOR); // Converts Fahrenheit to Celsius
         
         System.out.println("Please enter a 5-character string:");
-        inputString = scan.next();
+        inputString = input.next();
         
         trimString = inputString.substring(1,4);
         modifiedString = new StringBuilder(trimString).reverse();      // Reverses string and removes end characters
