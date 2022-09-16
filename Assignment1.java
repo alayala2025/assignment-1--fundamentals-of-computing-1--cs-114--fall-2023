@@ -9,9 +9,8 @@ public class Assignment1 {
         System.out.println("              JJ");
         System.out.println("              JJ");
         System.out.println("              JJ");
-        System.out.println("      JJJ     JJ");
-        System.out.println("      JJJ     JJ");
-        System.out.println("         JJJJ");
-        
+        System.out.println("        JJ    JJ");
+        System.out.println("         J    J ");
+        System.out.println("          JJJJ");
     }
 }
