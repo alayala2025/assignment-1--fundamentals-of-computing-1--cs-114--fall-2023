@@ -30,9 +30,20 @@ public class Assignment1 {
         RanNum = genorator.nextInt(16352) + 32;
         System.out.println("Random Number: " + RanNum);
 
-        String test = "London";
-        new StringBuilder(test).reverse().toString();
-        System.out.println(test);
+        String reverse(String input){
+            char[] in = input.toCharArray();
+            int begin=0;
+            int end=in.length-1;
+            char temp;
+            while(end>begin){
+                temp = in[begin];
+                in[begin]=in[end];
+                in[end] = temp;
+                end--;
+                begin++;
+            }
+            return new String(in);
+            System.out.println(in);
 
     }
 }
