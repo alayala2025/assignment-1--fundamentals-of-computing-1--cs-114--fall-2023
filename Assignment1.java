@@ -2,16 +2,16 @@
 
 public class Assignment1 {
     public static void main(String[] args) {
-        System.out.println("              J");
-        System.out.println("              J");
-        System.out.println("              J");
-        System.out.println("              J");
-        System.out.println("              J");
-        System.out.println("              J");
-        System.out.println("              J");
-        System.out.println("              J");
-        System.out.println("     JJJ      J");
-        System.out.println("        JJJJ");
+        System.out.println("              JJ");
+        System.out.println("              JJ");
+        System.out.println("              JJ");
+        System.out.println("              JJ");
+        System.out.println("              JJ");
+        System.out.println("              JJ");
+        System.out.println("              JJ");
+        System.out.println("      JJJ     JJ");
+        System.out.println("      JJJ     JJ");
+        System.out.println("         JJJJ");
         
     }
 }
