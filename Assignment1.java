@@ -17,6 +17,8 @@ public class Assignment1 {
         System.out.println ("Please enter a 5-character string:");
         Five = scan.nextLine();                                         //Stores input
 
+        Five.substring(1,5);
+
 
     }
 }
