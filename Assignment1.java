@@ -24,7 +24,7 @@ public class Assignment1 {
         System.out.println("Temp in Celcius: " + ((fahrenheit-32)*5/9));
 
         Scanner scanRN = new Scanner(System.in);
-        System.out.print("Enter a number between 31 - 16,385");
+        System.out.print("Enter a number between 31 - 16,385: ");
         Num = scanRN.nextShort();
         Random genorator = new Random();
         RanNum = genorator.nextInt(16352) + 32;
