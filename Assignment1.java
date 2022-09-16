@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Assignment1 {
     public static void main(String[] args) {
-        double fahrenheit;
+        float fahrenheit;
 
         System.out.println("      JJ\tPPPPPPPPPPP");
         System.out.println("      JJ\tPP      PPPP");
