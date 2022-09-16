@@ -32,8 +32,14 @@ public class Assignment1 {
         System.out.println("Random Number: " + RanNum);
 
         Scanner scanw = new Scanner(System.in);
-        Word = scanw.nextInt();
-        String reverse = new StringBuffer(Word).reverse().toString();
-        System.out.println(reverse);
+        System.out.print("Type a word: ");
+        String str= scanw.nextLine();
+        System.out.print("You have entered: "+str); 
+        
+        
+        //Word = scanw.next();
+        //String string= Word;
+        //String reverse = new StringBuffer(string).reverse().toString();
+        //System.out.println(reverse);
     }
 }
