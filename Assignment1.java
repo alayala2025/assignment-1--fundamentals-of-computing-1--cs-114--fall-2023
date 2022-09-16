@@ -30,5 +30,7 @@ public class Assignment1 {
         RanNum = genorator.nextInt(16352) + 32;
         System.out.println("Random Number: " + RanNum);
 
+        String reverse = new StringBuilder(hi).reverse().toString();
+
     }
 }
