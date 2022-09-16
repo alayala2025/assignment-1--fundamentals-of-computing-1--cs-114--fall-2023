@@ -34,7 +34,7 @@ public class Assignment1 {
         Scanner scanw = new Scanner(System.in);
         System.out.print("Type a word: ");
         String str= scanw.nextLine();
-        System.out.print("You have entered: "+str); 
+        System.out.println("You have entered: "+str); 
         
         
         //Word = scanw.next();
