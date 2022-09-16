@@ -34,7 +34,8 @@ public class Assignment1 {
         Scanner scanw = new Scanner(System.in);
         System.out.print("Type a word: ");
         String str= scanw.nextLine();
-        String reverse = new StringBuffer(str).reverse().toString();
+        String strNew = str.substring(0, str.length()-1);
+        String reverse = new StringBuffer(strNew).reverse().toString();
         System.out.println("You have entered: "+reverse); 
     }
 }
