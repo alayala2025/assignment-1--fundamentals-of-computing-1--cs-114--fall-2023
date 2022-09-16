@@ -21,6 +21,6 @@ public class Assignment1 {
         System.out.print("Enter a temprature in Fahrenheit: ");
         fahrenheit = scan.nextInt();
 
-        System.out.println("Temp in Celcius" + ((fahrenheit-32)*5/9);
+        System.out.println("Temp in Celcius" + ((fahrenheit-32)*5/9));
     }
 }
