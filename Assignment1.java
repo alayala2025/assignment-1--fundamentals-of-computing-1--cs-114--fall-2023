@@ -31,6 +31,7 @@ public class Assignment1 {
         System.out.println("Random Number: " + RanNum);
 
         String reverse = new StringBuilder(hi).reverse().toString();
+        System.out.println(reverse);
 
     }
 }
