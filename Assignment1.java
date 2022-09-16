@@ -5,7 +5,7 @@ public class Assignment1 {
     public static void main(String[] args) {
         float fahrenheit;
         short Num;
-        short RanNum;
+        int RanNum;
 
         System.out.println("      JJ\tPPPPPPPPPPP");
         System.out.println("      JJ\tPP      PPPP");
@@ -27,7 +27,7 @@ public class Assignment1 {
         System.out.print("Enter a number between 31 - 16,385");
         Num = scanRN.nextShort();
         Random genorator = new Random();
-        RanNum = genorator.nextShort(16352) + 32;
+        RanNum = genorator.nextInt(16352) + 32;
         System.out.println("Random Number: " + RanNum);
 
     }
