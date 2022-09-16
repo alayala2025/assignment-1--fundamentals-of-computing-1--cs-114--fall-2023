@@ -34,12 +34,7 @@ public class Assignment1 {
         Scanner scanw = new Scanner(System.in);
         System.out.print("Type a word: ");
         String str= scanw.nextLine();
-        System.out.println("You have entered: "+str); 
-        
-        
-        //Word = scanw.next();
-        //String string= Word;
-        //String reverse = new StringBuffer(string).reverse().toString();
-        //System.out.println(reverse);
+        String reverse = new StringBuffer(str).reverse().toString();
+        System.out.println("You have entered: "+reverse); 
     }
 }
