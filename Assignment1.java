@@ -6,6 +6,7 @@ public class Assignment1 {
         float fahrenheit;
         short Num;
         int RanNum;
+        int Word;
 
         System.out.println("      JJ\tPPPPPPPPPPP");
         System.out.println("      JJ\tPP      PPPP");
@@ -30,8 +31,9 @@ public class Assignment1 {
         RanNum = genorator.nextInt(16352) + 32;
         System.out.println("Random Number: " + RanNum);
 
-        String string="whatever";
-        String reverse = new StringBuffer(string).reverse().toString();
+        Scanner scanw = new Scanner(System.in);
+        Word = scanw.nextInt();
+        String reverse = new StringBuffer(Word).reverse().toString();
         System.out.println(reverse);
     }
 }
