@@ -25,9 +25,9 @@ public class Assignment1 {
 
         Scanner scanRN = new Scanner(System.in);
         System.out.print("Enter a number between 31 - 16,385");
-        Num = scanRN.nextFloat();
+        Num = scanRN.nextShort();
         Random genorator = new Random();
-        RanNum = genorator.nextFloat(16352) + 32;
+        RanNum = genorator.nextShort(16352) + 32;
         System.out.println("Random Number: " + RanNum);
 
     }
