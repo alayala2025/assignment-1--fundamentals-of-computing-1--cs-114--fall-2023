@@ -22,7 +22,6 @@ public class Assignment1 {
         Scanner scanT = new Scanner(System.in);
         System.out.print("Enter a temprature in Fahrenheit: ");
         fahrenheit = scanT.nextFloat();
-        System.out.println("Temp in Celcius: " + ((fahrenheit-32)*5/9));
        
         Scanner scanw = new Scanner(System.in);
         System.out.print("Type a 5 letter sting: ");
@@ -30,7 +29,7 @@ public class Assignment1 {
         String strNew1 = str.substring(0, str.length()-1);
         String strNew2 = strNew1.substring(1, str.length()-1);
         String reverse = new StringBuffer(strNew2).reverse().toString();
-        System.out.println("You have entered: "+ reverse); 
+
 
         Random genorator = new Random();
         RanNum = genorator.nextInt(16352) + 32;
