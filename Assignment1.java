@@ -1,7 +1,12 @@
 // Import libraries here
+import java.util.Scanner;
 
 public class Assignment1 {
     public static void main(String[] args) {
+
+        //Variables and Declarations
+        Scanner input = new Scanner(System.in);
+
         // Prints Block "AK"
         System.out.println();
         System.out.println("\s\s\sAAAAAA\tKKKK\t\sKKK");
