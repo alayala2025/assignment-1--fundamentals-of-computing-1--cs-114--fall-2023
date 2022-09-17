@@ -11,7 +11,7 @@ public class Assignment1 {
         System.out.println("AAAA\tAAAA\tKKKK\s\sKKKK");
         System.out.println("AAAA\tAAAA\tKKKK\tKKKK");
 
-
+        System.out.println("\nPlease enter a 5-character string:");
 
 
 
