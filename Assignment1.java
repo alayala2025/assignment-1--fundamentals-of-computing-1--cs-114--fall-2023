@@ -8,7 +8,7 @@ public class Assignment1 {
         String message;
         Scanner FiveChar = new Scanner(System.in);
 
-        String temperature;
+        int temperature;
         Scanner Temp = new Scanner(System.in);
 
         // Prints Block "AK"
@@ -26,9 +26,9 @@ public class Assignment1 {
 
         //Code for Temperature string input from user
         System.out.println("\nPlease enter a number in Fahrenheit:");
-            temperature = Temp.nextLine();
+            temperature = Temp.nextInt();
 
-
+        //Code for RNG
 
     }
 }
