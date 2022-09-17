@@ -33,7 +33,8 @@ public class Assignment1 {
 
         Random genorator = new Random();
         RanNum = genorator.nextInt(16352) + 32;
-        System.out.println("Random Number: " + RanNum);
+        System.out.println("Random Number: " + ((fahrenheit-32)*5/9) 
+        + RanNum);
 
     }
 }
