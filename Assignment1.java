@@ -31,8 +31,8 @@ public class Assignment1 {
 
         Random genorator = new Random();
         RanNum = genorator.nextInt(16352) + 32;
-        System.out.println("Random String: " + reverse
-                            + ((fahrenheit-32)*5/9) + RanNum);
+        System.out.println("Random String: " + ((fahrenheit-32)*5/9) 
+                            + reverse + RanNum);
 
     }
 }
