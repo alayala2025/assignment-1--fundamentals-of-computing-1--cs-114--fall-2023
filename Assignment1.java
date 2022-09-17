@@ -5,7 +5,11 @@ public class Assignment1 {
     public static void main(String[] args) {
 
         //Variables and Declarations
-        Scanner input = new Scanner(System.in);
+        String message;
+        Scanner FiveChar = new Scanner(System.in);
+
+        String temperature;
+        Scanner Temp = new Scanner(System.in);
 
         // Prints Block "AK"
         System.out.println();
@@ -16,8 +20,13 @@ public class Assignment1 {
         System.out.println("AAAA\tAAAA\tKKKK\s\sKKKK");
         System.out.println("AAAA\tAAAA\tKKKK\tKKKK");
 
+        //Code for 5 Character string input from user
         System.out.println("\nPlease enter a 5-character string:");
+            message = FiveChar.nextLine();
 
+        //Code for Temperature string input from user
+        System.out.println("\nPlease enter a number in Fahrenheit:");
+            temperature = Temp.nextLine();
 
 
 
