@@ -24,7 +24,7 @@ public class Assignment1 {
         System.out.println("\nPlease enter a 5-character string:");
             message = FiveChar.nextLine();
 
-        //Code for Temperature string input from user
+        //Code for Temperature integer input from user
         System.out.println("\nPlease enter a number in Fahrenheit:");
             temperature = Temp.nextInt();
 
