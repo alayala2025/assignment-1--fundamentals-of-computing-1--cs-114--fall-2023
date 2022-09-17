@@ -1,4 +1,4 @@
-// Import libraries here
+// imported scaner and random class
 import java.util.*;
 
 public class Assignment1 {
