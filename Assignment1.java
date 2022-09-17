@@ -24,15 +24,12 @@ public class Assignment1 {
         fahrenheit = scanT.nextFloat();
         System.out.println("Temp in Celcius: " + ((fahrenheit-32)*5/9));
 
-        Scanner scanRN = new Scanner(System.in);
-        System.out.print("Enter a number between 31 - 16,385: ");
-        Num = scanRN.nextShort();
         Random genorator = new Random();
         RanNum = genorator.nextInt(16352) + 32;
         System.out.println("Random Number: " + RanNum);
 
         Scanner scanw = new Scanner(System.in);
-        System.out.print("Type a word: ");
+        System.out.print("Type a 5 letter sting: ");
         String str= scanw.nextLine();
         String strNew1 = str.substring(0, str.length()-1);
         String strNew2 = strNew1.substring(1, str.length()-1);
