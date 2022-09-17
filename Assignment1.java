@@ -35,8 +35,8 @@ public class Assignment1 {
         System.out.print("Type a word: ");
         String str= scanw.nextLine();
         String strNew1 = str.substring(0, str.length()-1);
-        String reverse = new StringBuffer(strNew1).reverse().toString();
-        value = reverse.substring(1);
-        System.out.println("You have entered: "+value); 
+        String strNew2 = strNew1.substring(1, str.length()-1);
+        String reverse = new StringBuffer(strNew2).reverse().toString();
+        System.out.println("You have entered: "+ reverse); 
     }
 }
