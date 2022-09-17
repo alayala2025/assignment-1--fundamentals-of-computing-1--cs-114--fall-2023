@@ -6,7 +6,6 @@ public class Assignment1 {
         float fahrenheit;
         short Num;
         int RanNum;
-        int Word;
 
         System.out.println("      JJ\tPPPPPPPPPPP");
         System.out.println("      JJ\tPP      PPPP");
