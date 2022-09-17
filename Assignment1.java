@@ -5,6 +5,7 @@ public class Assignment1 {
     public static void main(String[] args) {
         float fahrenheit;
         int RanNum;
+        float celcius;
 
         //prints out initials
         System.out.println("      JJ\tPPPPPPPPPPP");
@@ -22,6 +23,8 @@ public class Assignment1 {
         Scanner scanT = new Scanner(System.in);
         System.out.print("Enter a temprature in Fahrenheit: ");
         fahrenheit = scanT.nextFloat();
+        celcius = ((fahrenheit-32)*5/9);
+
        
         //scans string from user, removes 1st & last characters, and flips
         Scanner scanw = new Scanner(System.in);
@@ -34,10 +37,9 @@ public class Assignment1 {
         //genorates random number
         Random genorator = new Random();
         RanNum = genorator.nextInt(16352) + 32;
-        
+
         //prints crafted string
-        System.out.println("Random String: " + ((fahrenheit-32)*5/9) 
-                            + reverse + RanNum);
+        System.out.println("Random String: " + celcius + reverse + RanNum);
 
     }
 }
