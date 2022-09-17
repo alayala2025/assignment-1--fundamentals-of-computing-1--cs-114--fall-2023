@@ -4,7 +4,6 @@ import java.util.*;
 public class Assignment1 {
     public static void main(String[] args) {
         float fahrenheit;
-        short Num;
         int RanNum;
 
         System.out.println("      JJ\tPPPPPPPPPPP");
