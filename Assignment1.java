@@ -10,7 +10,7 @@ public class Assignment1 {
         System.out.println("KKK\tKKK\t\tNNN\t\tNNN");
         //My first initial K for Kamau
         //My second initial N for Nicholas
-        
+
 
     }
 }
