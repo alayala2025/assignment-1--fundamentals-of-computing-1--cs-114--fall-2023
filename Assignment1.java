@@ -1,5 +1,6 @@
 // Import libraries here
 import java.util.Scanner;
+import java.util.Random;
 
 public class Assignment1 {
     public static void main(String[] args) {
@@ -10,6 +11,9 @@ public class Assignment1 {
 
         int temperature;
         Scanner Temp = new Scanner(System.in);
+
+        Random generator = new Random();
+        int num1;
 
         // Prints Block "AK"
         System.out.println();
@@ -29,6 +33,7 @@ public class Assignment1 {
             temperature = Temp.nextInt();
 
         //Code for RNG
-
+        num1 = generator.nextInt();
+        System.out.println(num1);
     }
 }
