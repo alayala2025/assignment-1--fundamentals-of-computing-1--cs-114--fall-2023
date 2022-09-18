@@ -6,7 +6,7 @@ public class Assignment1 {
     public static void main(String[] args) {
 
         //Variables and Declarations
-        String message;
+        String input;
         Scanner FiveChar = new Scanner(System.in);
 
         int celsius;
@@ -27,7 +27,7 @@ public class Assignment1 {
 
         //5 Character string input from user
         System.out.println("\nPlease enter a 5-character string:");
-            message = FiveChar.nextLine();
+            input = FiveChar.nextLine();
 
         //Temperature integer input from user
         System.out.println("\nPlease enter a number in Fahrenheit:");
@@ -37,14 +37,14 @@ public class Assignment1 {
         celsius = (fahrenheit - 32) * 5/9;
 
         //Modifys the 5 character input (remove first and last letter, than mirror inner three)
-        message = message.substring(1,4);
+        input = input.substring(1,4);
             //NEED TO FIND OUT HOW TO FLIP THE STRING IDK HOW
 
         //RNG
         randNum = generator.nextInt(16384 - 32) + 32;
 
         //Creating the Final String
-        System.out.println("\nYour new string is " + celsius + message + randNum);
+        System.out.println("\nYour new string is " + celsius + input + randNum);
 
 
 
