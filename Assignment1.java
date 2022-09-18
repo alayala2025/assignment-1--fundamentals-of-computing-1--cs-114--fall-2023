@@ -22,7 +22,7 @@ public class Assignment1 {
 
         System.out.println("\nPlease enter a number in Fahrenheit:");
         tempFahrenheit = input.nextFloat();
-        
+
         // Converts Fahrenheit to Celsius
         tempCelsius = (float) ((tempFahrenheit - 32) * CONVERSION_FACTOR);
 
