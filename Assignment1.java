@@ -10,7 +10,7 @@ public class Assignment1 {
         Random generator = new Random();                    // Used to generate a random number
         int randomNumber;
         String outputFinal;
-        
+
         // Prints the block-letter initials as seen in the code
         System.out.println("BBBBBBB      SSSSSSS ");
         System.out.println("BBB   BBB   SSS   SSS");
@@ -19,16 +19,16 @@ public class Assignment1 {
         System.out.println("BBB   BBB         SSS");
         System.out.println("BBB   BBB   SSS   SSS");
         System.out.println("BBBBBBB      SSSSSSS ");
-        
+
         System.out.println("\nPlease enter a number in Fahrenheit:");
         tempFahrenheit = input.nextFloat();
         
         // Converts Fahrenheit to Celsius
         tempCelsius = (float) ((tempFahrenheit - 32) * CONVERSION_FACTOR);
-        
+
         System.out.println("Please enter a 5-character string:");
         inputString = input.next();
-        
+
         // Removes end characters and reverses string
         trimString = inputString.substring(1,4);
         modifiedString = new StringBuilder(trimString).reverse();
