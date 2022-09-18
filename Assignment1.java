@@ -9,7 +9,8 @@ public class Assignment1 {
         String message;
         Scanner FiveChar = new Scanner(System.in);
 
-        int temperature;
+        int celsius;
+        int fahrenheit;
         Scanner Temp = new Scanner(System.in);
 
         Random generator = new Random();
@@ -24,16 +25,28 @@ public class Assignment1 {
         System.out.println("AAAA\tAAAA\tKKKK\s\sKKKK");
         System.out.println("AAAA\tAAAA\tKKKK\tKKKK");
 
-        //Code for 5 Character string input from user
+        //5 Character string input from user
         System.out.println("\nPlease enter a 5-character string:");
             message = FiveChar.nextLine();
 
-        //Code for Temperature integer input from user
+        //Temperature integer input from user
         System.out.println("\nPlease enter a number in Fahrenheit:");
-            temperature = Temp.nextInt();
+            fahrenheit = Temp.nextInt();
 
-        //Code for RNG
+        //Change F to Celsius
+        celsius = (fahrenheit - 32) * 5/9;
+
+        //Modifys the 5 character input (remove first and last letter, than mirror inner three)
+        message = message.substring(1,4);
+            //NEED TO FIND OUT HOW TO FLIP THE STRING IDK HOW
+
+        //RNG
         randNum = generator.nextInt(16384 - 32) + 32;
-        System.out.println(randNum);
+
+        //Creating the Final String
+        System.out.println("\nYour new string is " + celsius + message + randNum);
+
+
+
     }
 }
