@@ -21,7 +21,7 @@ public class Assignment1 {
         String FiveAfter = Five.substring(1,4);          //FiveAfter clones the 5-character string
         String FiveTrim = "";                                                 //FiveTrim is empty to store FiveAfter
 
-        for (int i = 2; i >=0; i--)                                     //reverses characters from FiveAfter and sends into FiveTrim
+        for (int i = 2; i >=0; i--)                                     //Reverses characters from FiveAfter and sends into FiveTrim
                     {FiveTrim += FiveAfter.charAt(i);}
 
 
@@ -32,6 +32,7 @@ public class Assignment1 {
         System.out.println ("Please enter a temperature in Farenheit:");
 
         Fahrenheit = scan.nextInt();
+
 
         Celsius = ((Fahrenheit-32)*5)/9;                                     //Calculation after input
 
