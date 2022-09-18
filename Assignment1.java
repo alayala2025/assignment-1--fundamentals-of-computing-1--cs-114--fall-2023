@@ -13,7 +13,7 @@ public class Assignment1 {
         Scanner Temp = new Scanner(System.in);
 
         Random generator = new Random();
-        int num1;
+        int randNum;
 
         // Prints Block "AK"
         System.out.println();
@@ -33,7 +33,7 @@ public class Assignment1 {
             temperature = Temp.nextInt();
 
         //Code for RNG
-        num1 = generator.nextInt();
-        System.out.println(num1);
+        randNum = generator.nextInt(16384 - 32) + 32;
+        System.out.println(randNum);
     }
 }
