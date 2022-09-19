@@ -37,13 +37,13 @@ public class Assignment1 {
 		//Change F to Celsius
 		celsius = (fahrenheit - 32) * 5/9;
 
-		//Modifys the 5 character input (remove first and last letter, than mirror inner three)
+		//Modifys the 5 character input
 		reverse = new StringBuffer(input).reverse().toString();
 			reverse = reverse.substring(1,4);
 		//RNG
 		randNum = generator.nextInt(16384 - 32) + 32;
 
-		//Creating the Final String
+		//Creating the Final print line
 		System.out.println("\nYour new string is " + celsius + reverse + randNum + "\n");
     }
 }
