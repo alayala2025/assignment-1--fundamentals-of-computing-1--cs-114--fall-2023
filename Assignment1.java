@@ -4,9 +4,11 @@ import java.util.Random;
 
 public class Assignment1 {
 	public static void main(String[] args) {
+
 		//Variables and Declarations
 		String input;
 		Scanner FiveChar = new Scanner(System.in);
+		String reverse;
 
 		int celsius;
 		int fahrenheit;
@@ -36,13 +38,12 @@ public class Assignment1 {
 		celsius = (fahrenheit - 32) * 5/9;
 
 		//Modifys the 5 character input (remove first and last letter, than mirror inner three)
-		input = input.substring(1,4);
-			//NEED TO FIND OUT HOW TO FLIP THE STRING IDK HOW
-
+		reverse = new StringBuffer(input).reverse().toString();
+			reverse = reverse.substring(1,4);
 		//RNG
 		randNum = generator.nextInt(16384 - 32) + 32;
 
 		//Creating the Final String
-		System.out.println("\nYour new string is " + celsius + input + randNum);
-	}
+		System.out.println("\nYour new string is " + celsius + reverse + randNum + "\n");
+    }
 }
