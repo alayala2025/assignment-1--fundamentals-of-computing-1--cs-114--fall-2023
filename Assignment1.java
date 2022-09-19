@@ -15,14 +15,21 @@ public class Assignment1 {
         System.out.println();
         System.out.println();
         //This is for Step 2 of Assignment 1
-        //I need to ask the user to input a value for fahrenheit and
-        //then translate it into celsuis; so x times 32
+        //I need to ask the user to input a value for fahrenheit 
+        
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please enter a temperature in Fahrenheit: ");
-        double temperature = scanner.nextInt();
+        System.out.println("Enter a temperature in fahrenheit: ");
+        double temperature = scanner.nextInt(); 
 
-        System.out.println("The temperature is "+temperature+" in Celsius");
+        temperature = (temperature - 32) * 5/9; 
+        System.out.println(temperature);
+        //My formula for temperature works. Step 2 is done
+        
+    
+
+
+       
 
 
 
