@@ -46,6 +46,5 @@ public class Assignment1 {
 		System.out.println("\nYour new string is " + celsius + input + randNum);
 
 
-
 	}
 }
