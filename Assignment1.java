@@ -28,13 +28,12 @@ public class Assignment1 {
 
         double Fahrenheit;
         double Celsius;
-        final double CONVERSION_FACTOR = 9.0 / 5.0;                          //Fahrenheit to Celcius formula
         System.out.println ("Please enter a temperature in Farenheit:");
 
         Fahrenheit = scan.nextInt();
 
 
-        Celsius = ((Fahrenheit-32)*5)/9;                                     //Calculation after input
+        Celsius = ((Fahrenheit-32)*5)/9;                                     //Calculation for temperatureS
 
 
 
