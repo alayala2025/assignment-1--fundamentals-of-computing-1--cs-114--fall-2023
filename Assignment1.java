@@ -10,5 +10,7 @@ public class Assignment1 {
         System.out.println("MMM            MMM       SSS      SSS");
         System.out.println("MMM            MMM        SSSS     SSS");
         System.out.println("MMM            MMM           SSSSSS");
+
+        System.out.println("");
     }
 }
