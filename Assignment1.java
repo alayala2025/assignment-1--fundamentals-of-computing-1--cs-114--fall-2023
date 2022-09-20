@@ -17,19 +17,26 @@ public class Assignment1 {
     String message;
     Scanner scan = new Scanner(System.in);
 
-    System.out.println("Enter a number in Fahrenheit: ");
+    int Fahrenheit;
+    double Celcius;
 
-    message = scan.nextLine();
+    System.out.println("Enter a number in Fahrenheit: ");
+    Fahrenheit = scan.nextInt();
+
+    Celcius = (Fahrenheit-32) / 1.8;
 
     System.out.println("Enter a 5 character string: ");
 
+    message = scan.nextLine();
+
+
     Random Generator = new Random();
-    int num1;
-    num1 = Generator.nextInt(16384) +32;
+    int num4;
+    num4 = Generator.nextInt(16384) +32;
 
     System.out.println("Adding randomized number.....");
 
-    System.out.println("Final String:"+num1);
+    System.out.println("Final String:"+Celcius +num4);
 
     }
 }
