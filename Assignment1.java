@@ -40,6 +40,7 @@ public class Assignment1 {
 
         //print final string
         finalstring = (celsius + withoutFirstAndLast + randomnumber);
-        System.out.println (finalstring);
+        System.out.println ("Random number generated. Continuing...");
+        System.out.println ("Your new string is " +finalstring);
     }
 }
