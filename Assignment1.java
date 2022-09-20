@@ -1,5 +1,6 @@
 
 import java.util.Scanner;
+import java.util.Random;
 
 public class Assignment1 {
     /**
@@ -16,6 +17,8 @@ public class Assignment1 {
                            "MMM            MMM           SSSSSS\n");
 
         System.out.println("");
+
+
         System.out.println("Please enter a number in Fahrenheit:");
 
     Scanner scan = new Scanner(System.in);
@@ -25,6 +28,15 @@ public class Assignment1 {
 
     int celcius;
     celcius = (temp - 32) / 5/9;
+
+        System.out.println("Random number generated. Continuing...");
+        System.out.println("Your new string is");
+
+    Random generator = new Random ();
+    int num;
+    int low = 32;
+    int high = 16384;
+    num = generator.nextInt(high-low);
 
 }
     }
