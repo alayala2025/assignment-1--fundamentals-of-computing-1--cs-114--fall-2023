@@ -25,10 +25,11 @@ public class Assignment1 {
 
     Celcius = (Fahrenheit-32) / 1.8;
 
-    String message;
+    String message1, message2, NewMessage;
     System.out.println("Enter a 5 character string: ");
-    message = scan.next();
-
+    message1 = scan.next();
+    message2 = message1.substring(1,4);
+    NewMessage = message2;
 
     Random Generator = new Random();
     int Rnumber;
@@ -36,7 +37,7 @@ public class Assignment1 {
 
     System.out.println("Adding randomized number.....");
 
-    System.out.println("Final String:"+Celcius +Rnumber);
+    System.out.println("Final String:"+Celcius +NewMessage +Rnumber);
 
     }
 }
