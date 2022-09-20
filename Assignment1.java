@@ -16,15 +16,15 @@ public class Assignment1 {
 
     System.out.println("Enter a number in Fahrenheit: ");
 
+    System.out.println("Enter a 5 character string: ");
+
     Random Generator = new Random();
     int num1;
-    num1 = Generator.nextInt();
-
-    System.out.println("Enter a 5 character string: ");
+    num1 = Generator.nextInt(16384) +32;
 
     System.out.println("Adding randomized number.....");
 
-    System.out.println("Final String: ")
+    System.out.println("Final String:"+num1);
 
-}
+    }
 }
