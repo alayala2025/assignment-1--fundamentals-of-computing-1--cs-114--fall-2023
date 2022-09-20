@@ -17,26 +17,29 @@ public class Assignment1 {
                            "MMM            MMM           SSSSSS\n");
 
         System.out.println("");
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Please enter a 5-character string");
+        String fiveLetterWord = scanner.nextLine();
+        String fiveLetterWord2 = fiveLetterWord.substring( 1, 4);
 
         System.out.println("Please enter a number in Fahrenheit:");
 
-    Scanner scan = new Scanner(System.in);
 
-    int temp;
-    temp = scan.nextInt();
-
-    int celcius;
-    celcius = (temp - 32) / 5/9;
+        int temp;
+        temp = scanner.nextInt();
+        int celcius;
+        celcius = (temp - 32) / 5/9;
 
         System.out.println("Random number generated. Continuing...");
-        System.out.println("Your new string is");
 
-    Random generator = new Random ();
-    int num;
-    int low = 32;
-    int high = 16384;
-    num = generator.nextInt(high-low);
+        Random generator = new Random ();
+        int num;
+        int low = 32;
+        int high = 16384;
+        num = generator.nextInt(high-low);
+        System.out.println("Your random number is: " + num);
 
+        System.out.println("Your new string is" );
 }
     }
