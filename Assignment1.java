@@ -39,6 +39,6 @@ public class Assignment1 {
         num = generator.nextInt(high-low);
         System.out.println("Your random number is: " + num);
 
-        System.out.println("Your new string is" );
+        System.out.println("Your new string is: " +  celcius + fiveLetterWord2 + num);
 }
     }
