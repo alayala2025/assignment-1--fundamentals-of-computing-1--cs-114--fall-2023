@@ -14,7 +14,7 @@ public class Assignment1 {
     System.out.println("MMM  MMMM  MMM" + "\t GGGGGGGGGGG");
     System.out.println("MMM        MMM" + "\t  GGGGGGGGG");
 
-    String message;
+
     Scanner scan = new Scanner(System.in);
 
     int Fahrenheit;
@@ -27,16 +27,13 @@ public class Assignment1 {
 
     System.out.println("Enter a 5 character string: ");
 
-    message = scan.nextLine();
-
-
     Random Generator = new Random();
-    int num4;
-    num4 = Generator.nextInt(16384) +32;
+    int Rnumber;
+    Rnumber = Generator.nextInt(16384) +32;
 
     System.out.println("Adding randomized number.....");
 
-    System.out.println("Final String:"+Celcius +num4);
+    System.out.println("Final String:"+Celcius +Rnumber);
 
     }
 }
