@@ -14,7 +14,12 @@ public class Assignment1 {
     System.out.println("MMM  MMMM  MMM" + "\t GGGGGGGGGGG");
     System.out.println("MMM        MMM" + "\t  GGGGGGGGG");
 
+    String message;
+    Scanner scan = new Scanner(System.in);
+
     System.out.println("Enter a number in Fahrenheit: ");
+
+    message = scan.nextLine();
 
     System.out.println("Enter a 5 character string: ");
 
