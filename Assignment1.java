@@ -25,7 +25,10 @@ public class Assignment1 {
 
     Celcius = (Fahrenheit-32) / 1.8;
 
+    String message;
     System.out.println("Enter a 5 character string: ");
+    message = scan.next();
+
 
     Random Generator = new Random();
     int Rnumber;
