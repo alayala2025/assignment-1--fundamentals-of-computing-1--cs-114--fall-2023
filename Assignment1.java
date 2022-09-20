@@ -40,7 +40,5 @@ public class Assignment1 {
 
         System.out.println("Your username is: " + word2 + x + temperature);
 
-
-
     }
 }
