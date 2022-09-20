@@ -1,8 +1,6 @@
 
 import java.util.Random;
-import java.util.Scanner;
-
-
+import java.util.*;
 
 public class Assignment1 {
     public static void main(String[] args) {
@@ -29,7 +27,7 @@ public class Assignment1 {
     System.out.println("Enter a 5 character string: ");
     message1 = scan.next();
     message2 = message1.substring(1,4);
-    NewMessage = message2;
+    NewMessage = message2;//Unfortunately I couldn't figure this one out
 
     Random Generator = new Random();
     int Rnumber;
