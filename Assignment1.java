@@ -23,13 +23,12 @@ public class Assignment1 {
         Random random = new Random();
 
         System.out.println("Enter a 5 letter word: ");
-        String word = scanner.nextLine();
+        String word1 = scanner.nextLine();
 
-        String reverse = "";
-        for(int i = word.length() - 1; i>= 0; i--){
-            reverse += word.charAt(i);
-            System.out.println(reverse);
-        }
+        String word2 = word1.substring(1, 4);
+
+        System.out.println("Your new string is: " + word2);
+    
         System.out.println("Enter a temperature in fahrenheit: ");
         double temperature = scanner.nextDouble();
 
@@ -39,20 +38,7 @@ public class Assignment1 {
         int x = random.nextInt(16369)+15;
         System.out.println("Your random number is: " + x);
 
-        System.out.println("Your username is: " + x + reverse + temperature);
-
-
-
-
-
-
-
-
-        
-    
-
-
-       
+        System.out.println("Your username is: " + word2 + x + temperature);
 
 
 
