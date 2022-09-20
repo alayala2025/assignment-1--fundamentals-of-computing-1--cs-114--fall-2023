@@ -20,7 +20,11 @@ public class Assignment1 {
     int num1;
     num1 = Generator.nextInt();
 
-    System.out.println("Enter a number between 32 and 16,384: ");
+    System.out.println("Enter a 5 character string: ");
+
+    System.out.println("Adding randomized number.....");
+
+    System.out.println("Final String: ")
 
 }
 }
