@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 // Import libraries here
 
 public class Assignment1 {
@@ -19,12 +20,33 @@ public class Assignment1 {
         
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter a temperature in fahrenheit: ");
-        double temperature = scanner.nextInt(); 
+        Random random = new Random();
 
-        temperature = (temperature - 32) * 5/9; 
-        System.out.println(temperature);
-        //My formula for temperature works. Step 2 is done
+        String word;
+
+        System.out.println("Enter a 5 letter word: ");
+        word = scanner.nextLine();
+
+
+
+        System.out.println("Enter a temperature in fahrenheit: ");
+        double temperature = scanner.nextDouble();
+
+        temperature = (temperature - 32) * 5/9;
+        System.out.println("Your temperature in Celsius is " + temperature);
+
+        int x = random.nextInt(16369)+15;
+        System.out.println("Your random number is: " + x);
+
+        System.out.println("Your username is: " + x + word + temperature);
+
+
+
+
+
+
+
+
         
     
 
