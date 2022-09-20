@@ -1,4 +1,5 @@
-// Import libraries here
+
+import java.util.Scanner;
 
 public class Assignment1 {
     public static void main(String[] args) {
@@ -13,5 +14,8 @@ public class Assignment1 {
 
         System.out.println("");
 
-    }
+    System.out.println("Please enter a number in Fahrenheit:");
+    Scanner scan = new Scanner(System.in);
+
 }
+    }
