@@ -26,9 +26,9 @@ public class Assignment1 {
         System.out.println("Please enter a number in Fahrenheit:");
         int temp;
         temp = scanner.nextInt();
-        int celcius;
-        celcius = (temp - 32) / 5/9;
-        System.out.println("Your temperature in Celcius is: " + celcius);
+        double celsius;
+        celsius = ((temp - 32) / 1.88);
+        System.out.println("Your temperature in Celsius is: " + celsius);
 
         System.out.println("Random number generated. Continuing...");
 
@@ -39,6 +39,6 @@ public class Assignment1 {
         num = generator.nextInt(high-low);
         System.out.println("Your random number is: " + num);
 
-        System.out.println("Your new string is: " +  celcius + fiveLetterWord2 + num);
+        System.out.println("Your new string is: " +  celsius + fiveLetterWord2 + num);
 }
     }
